@@ -10,12 +10,12 @@ public class ArraysHW {
         Scanner scan = new Scanner(System.in);
         int secretNumber = rnd.nextInt(101);
         int userChoice = -1000;
-        int[] userPrevChoices = new int[300];
+        int[] userPrevChoices = new int[1000];
         int counter = 0;
         System.out.println("What is your name, bro?");
         String name = scan.next();
         System.out.println("Let the game begin!");
-        System.out.println("\t\t\t\t\t\t\t\t\t\t\t(подсказка для режима тестирования: secretNumber= " + secretNumber + ")\n\n");
+        System.out.println("\t\t\t\t\\t\t\t(подсказка для режима тестирования: secretNumber= " + secretNumber + ")\n\n");
 
         while (userChoice != 1000) {
             userChoice = getNumber(scan);
